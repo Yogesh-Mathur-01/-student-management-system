@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    padding: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    /* font-weight: lighter; */
+    font-size: 16px;
+    color: rgb(77, 76, 76);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 8px 12px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 20px 0px 2px 700px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav>img {
+    margin: 0px 0px 0px 60px;
+
+}
+
+ul>li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li a {
+    display: flex;
+    /* height: 10px; */
+    width: 120px;
+    justify-content: center;
+
+}
+
+ul>li a:hover {
+    /* color: rgb(255, 0, 0); */
+    /* background-color: red; */
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    transform-origin: left;
+    transition-property: all;
+    transform: scale(1.04);
+    /* border-bottom: 2px solid black; */
+    text-decoration: underline;
+
+
+
+    font-weight: bold;
+
+}
+
+.logoutBtn {
+    margin: -2px 2px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.logoutBtn:hover {
+    background-color: rgb(231, 84, 84);
+}
+
+.container {
+    width: 99vw;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form {
+    width: 25vw;
+    height: 30vw;
+    /* border: 2px solid black; */
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    box-shadow: 2px 5px 10px 4px antiquewhite;
+    margin-top: 5vw;
+
+}
+
+h2 {
+    background-color: rgb(30, 130, 244);
+    color: white;
+    padding: 3px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.pdf {
+    color: red;
+    ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.choose {
+    padding-top: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: 45px;
+
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  
+
+}
+
+.file {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    /* margin: 1px; */
+    position: relative;
+    top: 45px;
+    left: 5px;
+
+}
+
+button[type="file"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 38%;
+    margin-top: 180px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 37%;
+    margin-top: 130px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+

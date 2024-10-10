@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: black; */
+    font-family: "Poppins", sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height:80vh ;
+    /* display: flex; */
+    table-layout: auto;
+    justify-content: center;
+}
+
+.text-center{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    /* border-bottom: 3px solid black; */
+    font-weight: bold;
+    color: rgb(50, 53, 54);
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 0 0 0px cadetblue;
+    /* box-shadow: 0px 5px 5px 5px; */
+
+}
+.delete-btn{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 5px;
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+.delete-btn:hover{
+    background-color: rgb(192, 1, 1);
+
+}
+
+.view-btn{
+    width: 20px;
+
+    color: white;
+    background-color: rgb(13, 230, 1);
+    text-decoration: none;
+    padding: 5px 12px;
+    margin: 5px 5px;
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+
+.view-btn:hover{
+    background-color: rgb(13, 193, 3);
+   
+
+
+}
+
+
+.update-btn{
+    width: 20px;
+    color: rgb(0, 0, 0);
+    background-color:yellow;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 5px;
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+.update-btn:hover{
+    background-color:rgb(186, 186, 3);
+
+
+}
+
+.ms-2{
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+}

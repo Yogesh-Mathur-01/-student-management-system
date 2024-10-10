@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styleR.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Welcome to Student Data mangement system</h1>
+    </div>
+
+
+
+
+    <div class="back"></div>
+    <div class="container">
+
+
+        <div class="login">
+            <h2>Sign Up</h2>
+            <form action="signup.php" autocomplete="off" method="post">
+                <div class="email">
+                    <input type="name" class="enteremail" name="name" required autofocus placeholder="Enter your name">
+                </div>
+                <div class="email">
+                    <input type="email" class="enterpassword" name="email" required placeholder="Enter email">
+                </div>
+
+                <div class="email">
+                    <input type="tel" class="enterpassword" name="number" maxlength="10" pattern="[0-9]{10}"
+                        title="Mobile number must be in numbers[0-9]" placeholder="Enter number">
+                </div>
+
+                <div class="email password">
+                    <input type="password" class="enterpassword" id="password" minlength="8" name="password" required
+                        placeholder="Create new password">
+                    <img src="eye-close.png" id="eyeicon">
+                </div>
+
+                <button class="loginbtn" type="submit" name="signup" value="signup">Sign up</button>
+
+
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+
+        let eyeicon = document.getElementById("eyeicon");
+        let password = document.getElementById("password");
+
+        eyeicon.onclick = function () {
+            if (password.type == "password") {
+                password.type = "text";
+                eyeicon.src = "eye-open.png"
+            } else {
+                password.type = "password";
+                eyeicon.src = "eye-close.png"
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

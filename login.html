@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <nav class="header">
+        <img src="logo.png" alt="" width="120px" height="">
+        <ul>
+
+            <li><a href="#">
+                    Home </a>
+            </li>
+            <li> <a href="register.html">
+                    Signup </a>
+            </li>
+            <li><a href="admin/adminLogin.html">
+                    Admin</a>
+            </li>
+            <li> <a href="#">
+                    About </a>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="back"></div>
+    <div class="container">
+
+        <div class="welcome">
+            <h1>Welcome to Student<br> Data mangement <br>system</h1>
+        </div>
+        <div class="login">
+            <h2>Student Login</h2>
+            <form action="login1.php" method="post">
+                <div class="email">
+                    <input type="email" required class="enteremail" name="email" placeholder="Enter email">
+                </div>
+                <div class="password">
+                    <input type="password" minlength="8" title="password must be 8 digit or letters !" required
+                        class="enterpassword" id="password" name="password" placeholder="Enter password">
+                        <img src="eye-close.png" id="eyeicon">
+                </div>
+
+
+                <!-- <div class="forgot"> <a href="">Forgot password?</a></div> -->
+
+                <button class="loginbtn" type="submit" name="login" value="login">Login</button>
+
+                <div class="register">
+                    <a href="register.html">Don't have account Register here</a>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+<script>
+
+    let eyeicon = document.getElementById("eyeicon");
+    let password = document.getElementById("password");
+
+    eyeicon.onclick=function(){
+        if(password.type== "password"){
+            password.type="text";
+            eyeicon.src="eye-open.png"
+        }else{
+            password.type="password";
+            eyeicon.src="eye-close.png"
+
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

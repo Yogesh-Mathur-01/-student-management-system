@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-size: cover;
+    /* background-image: url(https://www.hdsfoundation.org/wp-content/uploads/dark-blue-background-hd-wallpaper-12829.jpg); */
+    /* background: url('/project1/bluebc.jpg'); */
+    /* background: url(https://t3.ftcdn.net/jpg/03/48/55/20/360_F_348552050_uSbrANL65DNj21FbaCeswpM33mat1Wll.jpg); */
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight:600;
+    overflow-x: hidden;
+    /* background-position: right bottom; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+nav {
+    /* text-align: center; */
+    /* margin: 20px 0px; */
+    padding: 10px;
+    /* text-transform: uppercase; */
+    font-family: "Poppins", sans-serif;
+    /* font-weight: lighter; */
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+
+    /* text-decoration: underline; */
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 20px 0px 2px 700px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav>img {
+    margin: 0px 0px 0px 60px;
+
+}
+
+ul>li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li a {
+    display: flex;
+    /* height: 10px; */
+    width: 120px;
+    justify-content: center;
+
+}
+
+ul>li a:hover {
+    /* color: rgb(255, 0, 0); */
+    /* background-color: red; */
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    transform-origin: left;
+    transition-property: all;
+    transform: scale(1.04);
+    /* border-bottom: 2px solid black; */
+    text-decoration: underline;
+
+
+
+    font-weight: bold;
+
+}
+
+.logoutBtn {
+    margin: -4px 2px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.logoutBtn:hover {
+    background-color: rgb(231, 84, 84);
+}
+
+.back {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: black; */
+    opacity: .3;
+    position: absolute;
+}
+
+.nav2 {
+    background-color: rgb(242, 242, 242);
+    /* margin-top: -20px; */
+    height: 20px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 186, 186);
+    box-shadow:1px 7px 12px 0px;
+
+
+}
+
+.nav2 ul {
+    margin: 0px 0px 0px 0px;
+
+}
+
+.nav2 li a {
+    display: flex;
+    /* height: 10px; */
+    width: 180px;
+    justify-content: center;
+
+}
+
+.container {
+    width: 100vw;
+    height: 50vw;
+    /* position: relative; */
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    /* display: block; */
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: 30vh;
+}
+
+.heading {
+    padding: 50px;
+    width: 40vw;
+    margin: 120px 10px 0px 60px;
+    justify-self: center;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 36px;
+        
+    color: rgb(0, 0, 0);
+    
+}
+
+.png img {
+    width: 620px;
+    height: 500px;
+    aspect-ratio: auto;
+}
+
+.png {
+    width: 40vw;
+    margin: 70px 30px;
+    padding: 0px 100px;
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="attendanceStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mark Attendance</h2>
+        <form action="attendance.php" method="post">
+            <div class="form-group">
+                <label for="enrollment">Enrollment Number:</label>
+                <input type="text" id="enrollment" name="enroll" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="full_name" required>
+            </div>
+            <button type="submit">Mark Attendance</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="attendanceStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mark Attendance</h2>
+        <form action="attendance.php" method="post" id="attendanceForm">
+            <div class="form-group">
+                <label for="enroll">Enrollment Number:</label>
+                <input type="text" id="enroll" name="enroll" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <button type="button" onclick="submitAttendance()">Mark Attendance</button>
+        </form>
+    </div>
+
+    Modal
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <script src="attendanceJs.js"></script>
+</body>
+</html>
+ -->
